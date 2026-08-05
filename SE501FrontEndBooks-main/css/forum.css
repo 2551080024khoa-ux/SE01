@@ -1,0 +1,70 @@
+.flex{
+    display: flex;
+}
+nav{
+    background: linear-gradient(to right bottom, blue, white, lightblue);
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu > li > a {
+display: block;
+padding: 2rem;
+color: darkblue;
+text-decoration: none;
+}
+.brand{
+background: linear-gradient(to right bottom, blue, white, lightblue);
+padding: 1rem;
+margin-top: 5px;
+}
+.brand > h1 {
+font-size: 2.5rem;
+color: white;
+text-shadow: 2px 3px 3px blue;
+}
+.topic > h2 {
+    background-color: darkblue;
+    color: white;
+    padding: var(--main-padding);
+    margin-bottom: 0;
+    border-radius: 1rem 1rem 0 0;
+}
+.topic > .forum{
+    background-color: lightblue;
+    border-radius:  0 0 1rem 1rem;
+}
+.forums {
+    padding:  var(--main-padding);
+    border-bottom: 1px solid darkblue;
+}
+.forum:last-child {
+border-bottom: none;
+}
+.forum img {
+    width:  180px;
+    border-radius: 50%;
+}
+.ads > div {
+width: 9%;
+background: linear-gradient(skyblue, blue);
+color: white;
+border-radius: 10px;
+font-size: 1.2rem;
+padding: 8rem 0;
+margin: 0.5rem;
+margin-top: 1.2rem;
+text-align: center;
+position: fixed;
+}
+.ads > .left {
+    left: 0.1%;
+}
+.ads > .right {
+    right: 0.1%
+}
+.topic{
+    width: 80%;
+    margin: 0 auto;
+}
